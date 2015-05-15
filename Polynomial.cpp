@@ -7,7 +7,10 @@
 //
 
 #include "Polynomial.h"
-using namespace std;
-Polynomial::Polynomial() {
-    coefficients = vector<RationalNumber>(1);
+RationalNumber Polynomial::MUL_P_Q(RationalNumber &obj1)
+{
+    RationalNumber result;
+    result=this->MULL_ZZ_Z(obj1);
+    return result;
+    
 }
