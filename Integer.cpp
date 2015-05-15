@@ -10,17 +10,14 @@
 #define __DMColloquium__Integer__
 
 #include "NaturalNumber.h"
-#include <vector>
+
+#endif /* defined(__DMColloquium__Integer__) */
+
 
 class Integer : public NaturalNumber {
 private:
     bool isPositive;
 public:
-    Integer();
-    Integer(std::vector<unsigned int> digits, bool isPositive);
-    Integer(NaturalNumber natural, bool isPositive):NaturalNumber{natural},isPositive{isPositive}{};
-    
+    Integer MUL_ZZ_Z(Integer &obj);//x1 - openand 1, x2 - operand2
+    // All declarations go here
 };
-
-
-#endif /* defined(__DMColloquium__Integer__) */
