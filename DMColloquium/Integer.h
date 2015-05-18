@@ -18,5 +18,6 @@ class Integer : public NaturalNumber {
 private:
     bool isPositive;
 public:
+    Integer MUL_ZZ_Z(Integer &obj);//x1 - openand 1, x2 - operand2
     // All declarations go here
 };
