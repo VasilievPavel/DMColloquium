@@ -17,5 +17,6 @@ class Polynomial {
 private:
     std::vector<RationalNumber> coefficients;
 public:
+    RationalNumber MUL_P_Q(RationalNumber &obj1);
     
 };
